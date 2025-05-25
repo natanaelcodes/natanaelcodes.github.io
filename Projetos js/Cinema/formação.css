@@ -32,7 +32,7 @@
   line-height: 1;
   text-transform: uppercase;
   max-width: 5ch;
-  color: #000;
+  color: #ffe;
 }
 .formacao_texto {
   font-size: 1.5rem;
@@ -159,5 +159,18 @@
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
+  }
+
+  .curso_tipo::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    left: auto;
+
+    top: -30px;
+
+    background: url("/cursos.svg") no-repeat center;
+    position: absolute;
   }
 }
