@@ -1,8 +1,19 @@
-const mudarcor = document.querySelector(".CV-button");
+function tipodedado(dado){
 
-function corclick() {
-  const corpo = document.querySelector("body");
-  corpo.style.background = "brown"; // string entre aspas
+return typeof dado;
+}
+function nome(){
+  console.log("Natanael");
+}
+addEventListener( "click" , nome);
+var dadospessoais={
+  nome:"natanel",
+  idade:23,
+  altura:1.85,
+}
+var brasilcampeão=[1959,1962, 1970,1994,2002];
+for(var i=0; i< brasilcampeão.length; i++){
+  console.log(`O brasil ganhou a copa de ${i}`);
+
 }
 
-mudarcor.addEventListener("click", corclick);
