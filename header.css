@@ -462,30 +462,33 @@ margin-bottom: 20px;
 .footer {
   background-color: #0b0b1f; 
   color: #fff;
+  padding: 10px;
+    border-top: 1px solid gray;
+      height: 100%;
 }
 
 
-.footer {
-  border-top: 1px solid gray;
-  background-color: #0b0b1f; 
-  color: #fff;
-}
+
 
 
 
 .autoria {
- 
   padding: 20px;
   font-size: 0.9rem;
   color: #777;
  
+ 
 }
 .autoria p{
+  font-size: 1.2rem;
+  line-height: 1.4;
   text-align: center;
 }
 .link-contato{
   display: flex;
     justify-content:center;
+    align-items: center;
+    align-content: center;
    
 
 }
@@ -498,7 +501,7 @@ margin-bottom: 20px;
 .fa-brands:hover,
 .fa-solid:hover {
   transform: scale(1.1);
-  color: #ffd; /* exemplo */
+  color: #ffd; 
 }
 
 
