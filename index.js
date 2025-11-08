@@ -16,4 +16,8 @@ for(var i=0; i< brasilcampeão.length; i++){
   console.log(`O brasil ganhou a copa de ${i}`);
 
 }
+var possuiCarro=true;
+var possuiCasa=true;
+var darCredito;
+darCredito=(possuiCarro && possuiCasa);
 
