@@ -117,7 +117,7 @@ opacity: 0.7;
   margin-bottom: 30px;
   text-transform: uppercase;
  position: relative;
-  color: #ffe;
+  color:#ccf;
 
 
   z-index: 1;
@@ -154,9 +154,7 @@ opacity: 0.7;
 
 
 
-.saudacao span {
-  color: #a6d;
-}
+
 
 @media (max-width:1200px) {
     .inicio {
